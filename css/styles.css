@@ -75,8 +75,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
-  --bs-link-hover-color: #c34e2e;
+  --bs-link-color: #F9C305;
+  --bs-link-hover-color: #F9C305;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10921,10 +10921,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #F9C305;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #F9C305 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11031,4 +11031,22 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+#contact {
+  /* Establece la imagen de fondo */
+  background-image: url('../assets/img/c6.svg');
+  
+  /* Establece el tamaño del fondo (ajusta según tus necesidades) */
+  background-size: 100% 100%;
+  
+  /* Establece la posición del fondo (ajusta según tus necesidades) */
+  background-position: center;
+  
+  /* Asegúrate de que el contenido sea legible sobre el fondo */
+  /* color: white; */
+}
+
+/* Agrega un margen derecho a los elementos <a> que contienen los iconos */
+a.btn {
+  margin-right: 10px; /* Puedes ajustar el valor según tus necesidades */
 }

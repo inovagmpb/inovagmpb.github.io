@@ -10968,7 +10968,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../assets/img/3.jpeg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../assets/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11034,19 +11034,28 @@ header.masthead h1, header.masthead .h1 {
 }
 #contact {
   /* Establece la imagen de fondo */
-  background-image: url('../assets/img/c6.svg');
+  background-image: url('../assets/img/doña2.svg');
   
   /* Establece el tamaño del fondo (ajusta según tus necesidades) */
-  background-size: 100% 100%;
+  background-size: 50% 100%;
   
   /* Establece la posición del fondo (ajusta según tus necesidades) */
-  background-position: center;
+  background-position: right ;
+  
   
   /* Asegúrate de que el contenido sea legible sobre el fondo */
   /* color: white; */
+   /* Evita que la imagen de fondo se repita */
+   background-repeat: no-repeat;
+    /* Alinea la imagen de fondo en la esquina inferior derecha */
+ 
 }
 
 /* Agrega un margen derecho a los elementos <a> que contienen los iconos */
 a.btn {
   margin-right: 10px; /* Puedes ajustar el valor según tus necesidades */
+}
+.list-group-item {
+  font-size: 20px; /* Ajusta el tamaño de la clase list-group-item */
+  text-align: left; /* Alinea el texto a la izquierda */
 }
